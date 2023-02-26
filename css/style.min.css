@@ -1,0 +1,1819 @@
+@font-face {
+  font-family: Icons;
+  font-display: swap;
+  src: url("../fonts/Icons.woff2") format("woff2"), url("../fonts/Icons.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: DelaGothicOne;
+  font-display: swap;
+  src: url("../fonts/DelaGothicOne-Regular.woff2") format("woff2"), url("../fonts/DelaGothicOne-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "icons";
+  src: url("fonts/icons.eot?2lww97");
+  src: url("fonts/icons.eot?2lww97#iefix") format("embedded-opentype"), url("fonts/icons.ttf?2lww97") format("truetype"), url("fonts/icons.woff?2lww97") format("woff"), url("fonts/icons.svg?2lww97#icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=_icon], [class*=" _icon"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icons" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._iconNET:before {
+  content: "\e901";
+}
+
+._iconVK:before {
+  content: "\e902";
+}
+
+._iconINSTA:before {
+  content: "\e903";
+}
+
+._iconWA:before {
+  content: "\e904";
+}
+
+._iconRD:before {
+  content: "\e905";
+}
+
+._iconSTAR:before {
+  content: "\e907";
+}
+
+._iconSuccess:before {
+  content: "\e908";
+}
+
+@font-face {
+  font-family: Icons;
+  font-display: swap;
+  src: url("../fonts/Icons.woff2") format("woff2"), url("../fonts/Icons.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: DelaGothicOne;
+  font-display: swap;
+  src: url("../fonts/DelaGothicOne-Regular.woff2") format("woff2"), url("../fonts/DelaGothicOne-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+.header {
+  width: 110%;
+}
+.header__wrapper {
+  background-image: linear-gradient(rgba(52, 17, 153, 0.9), rgba(52, 17, 153, 0.9)), url("../img/dance_floor.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+.header__body {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+  align-items: center;
+}
+.header__name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+.header__logo {
+  color: rgb(255, 0, 138);
+  font-size: 67px;
+}
+.header__title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+.header__contact {
+  display: flex;
+  justify-content: space-between;
+  width: 345px;
+  align-items: center;
+  letter-spacing: 0.2px;
+}
+.header__phone {
+  font-weight: 700;
+  font-size: 20px;
+}
+.header__btn {
+  background-color: transparent;
+  border-radius: 100px;
+  border-color: rgb(255, 0, 138);
+  border-style: solid;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px 24px 15px 29px;
+}
+.header__content {
+  margin: 83px 0 127px 0;
+  max-width: 700px;
+}
+.header__content_title {
+  font-family: DelaGothicOne;
+  font-weight: 400;
+  font-size: 80px;
+  text-transform: uppercase;
+  line-height: 111%;
+}
+.header__content_info {
+  margin-top: 51px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  max-width: 580px;
+  letter-spacing: 0.3px;
+}
+.header__content_btn {
+  border-radius: 100px;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.6px;
+  user-select: none;
+  margin-top: 53px;
+  background-color: rgb(255, 0, 138);
+  padding: 23px 41px;
+  font-size: 22px;
+}
+.header__content_btn:hover {
+  background-color: rgb(0, 255, 209);
+  color: rgb(66, 22, 159);
+}
+
+.footer {
+  position: absolute;
+  top: 7176px;
+  width: 100%;
+  z-index: 7;
+}
+.footer__body {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.footer__conteiner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__clubs {
+  position: relative;
+  top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__club {
+  margin-right: 39px;
+}
+.footer__club_name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footer__club_icon {
+  position: relative;
+  top: 3px;
+  font-size: 13px;
+  margin-right: 9px;
+}
+.footer__club_nameText {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+.footer__club_address {
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 21px;
+  line-height: 23px;
+}
+.footer__contacts {
+  display: grid;
+  grid-template-columns: repeat(3, 44px);
+  gap: 32px;
+}
+.footer__icon {
+  font-size: 44px;
+}
+.footer__copyright {
+  background-color: black;
+}
+.footer__box {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__boxText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 11px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@font-face {
+  font-family: "icons";
+  src: url("fonts/icons.eot?2lww97");
+  src: url("fonts/icons.eot?2lww97#iefix") format("embedded-opentype"), url("fonts/icons.ttf?2lww97") format("truetype"), url("fonts/icons.woff?2lww97") format("woff"), url("fonts/icons.svg?2lww97#icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=_icon], [class*=" _icon"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icons" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._iconNET:before {
+  content: "\e901";
+}
+
+._iconVK:before {
+  content: "\e902";
+}
+
+._iconINSTA:before {
+  content: "\e903";
+}
+
+._iconWA:before {
+  content: "\e904";
+}
+
+._iconRD:before {
+  content: "\e905";
+}
+
+._iconSTAR:before {
+  content: "\e907";
+}
+
+._iconSuccess:before {
+  content: "\e908";
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: Icons;
+  font-display: swap;
+  src: url("../fonts/Icons.woff2") format("woff2"), url("../fonts/Icons.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: DelaGothicOne;
+  font-display: swap;
+  src: url("../fonts/DelaGothicOne-Regular.woff2") format("woff2"), url("../fonts/DelaGothicOne-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat;
+  font-display: swap;
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+.club {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  margin: 0 auto;
+  height: 100%;
+  overflow-y: scroll;
+}
+.club__background {
+  position: absolute;
+  display: block;
+  height: 180%;
+  width: 100%;
+  z-index: 10;
+}
+.club__container {
+  position: relative;
+  max-width: 1160px;
+  background-color: rgb(255, 255, 255);
+  margin: 109px auto 60px;
+  z-index: 12;
+}
+.club__title {
+  width: 577px;
+  font-family: DelaGothicOne;
+  letter-spacing: 0.9px;
+  font-size: 30px;
+  margin: 0 auto;
+  padding: 27px 0 22px;
+}
+.club__title_name {
+  color: rgb(171, 4, 250);
+  margin-right: 9px;
+}
+.club__title_address {
+  text-shadow: 0px 1px 0 rgb(171, 4, 250), 0px -1px 0 rgb(171, 4, 250), 1px 0px 0 rgb(171, 4, 250), -1px 0px 0 rgb(171, 4, 250), 1px 1px 0 rgb(171, 4, 250), 1px -1px 0 rgb(171, 4, 250), -1px 1px 0 rgb(171, 4, 250), -1px -1px 0 rgb(171, 4, 250);
+  -webkit-text-shadow: 0px 1px 0 rgb(171, 4, 250), 0px -1px 0 rgb(171, 4, 250), 1px 0px 0 rgb(171, 4, 250), -1px 0px 0 rgb(171, 4, 250), 1px 1px 0 rgb(171, 4, 250), 1px -1px 0 rgb(171, 4, 250), -1px 1px 0 rgb(171, 4, 250), -1px -1px 0 rgb(171, 4, 250);
+  -moz-text-shadow: 0px 1px 0 rgb(171, 4, 250), 0px -1px 0 rgb(171, 4, 250), 1px 0px 0 rgb(171, 4, 250), -1px 0px 0 rgb(171, 4, 250), 1px 1px 0 rgb(171, 4, 250), 1px -1px 0 rgb(171, 4, 250), -1px 1px 0 rgb(171, 4, 250), -1px -1px 0 rgb(171, 4, 250);
+}
+.club__info {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 359px);
+  padding: 45px 0px 41px;
+  max-width: 1079px;
+}
+.club__info_container {
+  display: flex;
+  justify-content: flex-start;
+}
+.club__info_pic {
+  width: 71px;
+}
+.club__info_text {
+  position: relative;
+  left: 36px;
+  top: 9px;
+  font-size: 16px;
+  line-height: 158.4%;
+  color: #000000;
+}
+.club__contact {
+  margin: 0 auto;
+  max-width: 1066px;
+  display: grid;
+  grid-template-columns: 1fr 606px;
+  padding-bottom: 49px;
+}
+.club__contact_info {
+  background-color: rgba(97, 0, 255, 0.2);
+  display: flex;
+  justify-content: flex-start;
+  padding: 14px 0 16px 16px;
+}
+.club__contact_logo {
+  font-size: 63px;
+  margin-right: 20px;
+}
+.club__contact_phone {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  top: 4px;
+}
+.club__contact_tel, .club__contact_email, .club__contact_workTime {
+  color: rgb(22, 0, 70);
+  font-size: 14px;
+  letter-spacing: 0.1px;
+}
+.club__contact_wa {
+  position: relative;
+  top: 2px;
+  left: 12px;
+  font-size: 15px;
+  color: rgb(22, 0, 70);
+}
+.club__contact_tg {
+  width: 15px;
+  position: relative;
+  top: 2px;
+  left: 16px;
+}
+.club__contact_email {
+  position: relative;
+  top: 9px;
+}
+.club__contact_workTime {
+  position: relative;
+  top: 14px;
+}
+.club__form {
+  background-color: rgb(171, 4, 250);
+  padding: 29px 0px 23px 26px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 187px);
+  gap: 9px;
+}
+.club__form_btn {
+  border-radius: 100px;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.6px;
+  user-select: none;
+  background-color: rgb(255, 0, 138);
+  font-size: 14px;
+  font-weight: 700;
+  width: 168px;
+}
+.club__form_btn:hover {
+  background-color: rgb(0, 255, 209);
+  color: rgb(66, 22, 159);
+}
+.club__form_input {
+  width: 174px;
+  padding: 11px 0 10px 10px;
+  letter-spacing: -1.1px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+body {
+  font-family: Montserrat;
+  color: rgb(255, 255, 255);
+  background-color: rgb(97, 0, 255);
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.open-modal {
+  overflow: hidden;
+}
+
+button:focus, button:active {
+  outline: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.text:active,
+a.text:hover,
+a.text {
+  text-decoration: none;
+  color: inherit;
+}
+
+._container {
+  max-width: 1160px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.main__wrapper {
+  margin: 0 auto;
+}
+
+.blueLine {
+  position: absolute;
+  width: 110%;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-family: DelaGothicOne;
+  font-weight: 400;
+  text-transform: uppercase;
+  user-select: none;
+  font-size: 80px;
+  color: #0D0637;
+  background-color: rgb(0, 255, 209);
+  transform: rotate(-3.43deg);
+  top: 833px;
+  padding: 0 20px 9px 20px;
+  z-index: 4;
+}
+
+.lilacLine {
+  position: absolute;
+  width: 110%;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-family: DelaGothicOne;
+  font-weight: 400;
+  text-transform: uppercase;
+  user-select: none;
+  font-size: 46px;
+  background-color: rgb(219, 0, 255);
+  transform: rotate(2.02deg);
+  top: 827px;
+  padding: 18px 0 30px 0;
+  z-index: 4;
+}
+
+.blackLine {
+  position: absolute;
+  width: 110%;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-family: DelaGothicOne;
+  font-weight: 400;
+  text-transform: uppercase;
+  user-select: none;
+  font-size: 46px;
+  background-color: rgb(0, 0, 0);
+  transform: rotate(-5.58deg);
+  top: 1748px;
+  padding: 10px 0 11px 0;
+  z-index: 5;
+}
+
+.violetLine {
+  position: absolute;
+  width: 110%;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-family: DelaGothicOne;
+  font-weight: 400;
+  text-transform: uppercase;
+  user-select: none;
+  transform: rotate(1.94deg);
+  font-size: 46px;
+  top: 2530px;
+  z-index: 6;
+}
+
+.galleryLine {
+  position: absolute;
+  width: 110%;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-family: DelaGothicOne;
+  font-weight: 400;
+  text-transform: uppercase;
+  user-select: none;
+  font-size: 36px;
+  background-color: rgb(0, 0, 0);
+  transform: rotate(-5.58deg);
+  top: 3290px;
+  padding: 18px 0 35px 0;
+  z-index: 6;
+}
+
+.listLine {
+  position: absolute;
+  width: 110%;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-family: DelaGothicOne;
+  font-weight: 400;
+  text-transform: uppercase;
+  user-select: none;
+  font-size: 46px;
+  background-color: rgb(108, 0, 192);
+  transform: rotate(1.94deg);
+  top: 4535px;
+  padding: 18px 0 35px 0;
+  z-index: 7;
+}
+
+.extraUp {
+  position: absolute;
+  width: 110%;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-family: DelaGothicOne;
+  font-weight: 400;
+  text-transform: uppercase;
+  user-select: none;
+  transform: rotate(-5.58deg);
+  background-color: rgb(1, 20, 88);
+  font-size: 46px;
+  line-height: 112.3%;
+  top: 5175px;
+  z-index: 7;
+  padding: 10px 0 40px 14px;
+}
+
+.extraLow {
+  position: absolute;
+  width: 110%;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-family: DelaGothicOne;
+  font-weight: 400;
+  text-transform: uppercase;
+  user-select: none;
+  background-color: rgb(171, 4, 250);
+  color: rgb(171, 4, 250);
+  top: 6304px;
+  padding-bottom: 12px;
+  font-weight: 400;
+  font-size: 36px;
+  z-index: 7;
+  text-shadow: 0px 1px 0 rgb(255, 255, 255), 0px -1px 0 rgb(255, 255, 255), 1px 0px 0 rgb(255, 255, 255), -1px 0px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 2px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
+  -webkit-text-shadow: 0px 1px 0 rgb(255, 255, 255), 0px -1px 0 rgb(255, 255, 255), 1px 0px 0 rgb(255, 255, 255), -1px 0px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
+  -moz-text-shadow: 0px 1px 0 rgb(255, 255, 255), 0px -1px 0 rgb(255, 255, 255), 1px 0px 0 rgb(255, 255, 255), -1px 0px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
+}
+
+.infoUpMask {
+  position: absolute;
+  width: 110%;
+  white-space: nowrap;
+  transform: rotate(-5.58deg);
+  top: 1775px;
+  height: 140px;
+  background-color: rgb(171, 4, 250);
+  z-index: 4;
+}
+
+.infoLowMask {
+  position: absolute;
+  width: 110%;
+  white-space: nowrap;
+  top: 2427px;
+  height: 102px;
+  transform: rotate(1.94deg);
+  background-color: rgb(171, 4, 250);
+  z-index: 4;
+}
+
+.menuMask {
+  position: absolute;
+  width: 110%;
+  white-space: nowrap;
+  top: 3165px;
+  height: 132px;
+  transform: rotate(-5.58deg);
+  background-color: rgb(66, 22, 159);
+  z-index: 6;
+}
+
+.info {
+  background-image: url("../img/Ellipse-7.png"), url("../img/Ellipse-41.png"), url("../img/Group-6.svg"), url("../img/Ellipse-8.png"), linear-gradient(rgb(97, 0, 255), rgb(97, 0, 255));
+  background-repeat: no-repeat;
+  background-position: left, right 50%, top 172px right 14%, top -200px right -40%;
+  background-size: auto, auto, 20%, 50%;
+  z-index: 3;
+  transform: rotate(-3.35deg);
+  position: relative;
+  padding: 199px 0 220px 0;
+  right: 4px;
+  width: 110%;
+  white-space: nowrap;
+}
+.info__container {
+  transform: rotate(3.43deg);
+  display: grid;
+  grid-template: repeat(2, 236px)/repeat(3, 332px);
+  gap: 72px;
+}
+.info__container :first-child :first-child {
+  margin: 7px 0 16px -5px;
+}
+.info__container :first-child :nth-child(2) {
+  margin: 0 0 0 5px;
+}
+.info__container :nth-child(2) :first-child {
+  margin: 6px 0px 18px 1px;
+}
+.info__container :nth-child(3) {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+.info__container :nth-child(3) :first-child {
+  margin: 4px 0px 12px 1px;
+}
+.info__container :nth-child(4) {
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+.info__container :nth-child(4) :first-child {
+  margin: -1px 0px 11px -1px;
+}
+.info__container :nth-child(4) :nth-child(2) {
+  margin: 0 0 0 -3px;
+}
+.info__text {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  width: 330px;
+  line-height: 34px;
+  white-space: normal;
+}
+.info__img {
+  margin-bottom: 35px;
+}
+
+.clubs {
+  position: relative;
+  background-color: rgb(171, 4, 250);
+  z-index: 0;
+  transform: rotate(-5.58deg);
+  right: 20px;
+  width: 110%;
+  min-width: 1130px;
+  margin: 0 auto;
+  padding: 10px 0 150px 131px;
+}
+.clubs__container {
+  position: relative;
+  bottom: 72px;
+  left: 208px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 0 auto;
+  transform: rotate(5.58deg);
+  width: 1800px;
+}
+.clubs__container :nth-child(5), .clubs__container :nth-child(6) {
+  padding-top: 356px;
+}
+.clubs__content {
+  white-space: normal;
+  width: 242px;
+  padding: 396px 0 153px 19px;
+}
+.clubs__content_ms {
+  background-image: url("../img/cm.png");
+  background-position: right top 93px;
+}
+.clubs__content_fb {
+  background-image: url("../img/cf.png");
+  background-position: right top 96px;
+}
+.clubs__content_gg {
+  background-image: url("../img/cm.png");
+  background-position: right top 93px;
+}
+.clubs__content_154 {
+  background-image: url("../img/cm.png");
+  background-position: right top 93px;
+}
+.clubs__content_msk {
+  background-image: url("../img/cm.png");
+  background-position: right top 93px;
+}
+.clubs__title {
+  font-family: DelaGothicOne;
+  font-size: 30px;
+  margin-bottom: 6px;
+  line-height: 42px;
+}
+.clubs__address {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 214px;
+  margin-bottom: 13px;
+}
+.clubs__info {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.55px;
+}
+.clubs__btn {
+  border-radius: 100px;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.6px;
+  user-select: none;
+  font-size: 16px;
+  background-color: rgb(255, 0, 138);
+  padding: 22px 40px 19px 42px;
+  position: relative;
+  top: 23px;
+  right: 8px;
+}
+.clubs__btn:hover {
+  background-color: rgb(0, 255, 209);
+  color: rgb(66, 22, 159);
+}
+
+.menu {
+  background-color: rgb(66, 22, 159);
+  transform: rotate(1.94deg);
+  width: 110%;
+  position: relative;
+  right: 20px;
+  margin-top: -254px;
+  z-index: 5;
+  padding: 182px 33px 450px 129px;
+}
+.menu__conteiner {
+  position: relative;
+  right: 81px;
+  transform: rotate(-1.94deg);
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.menu__bm {
+  width: 604px;
+  background-image: url("../img/bm.png"), linear-gradient(black, black);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top 3px right -2px, 100%;
+  height: 552px;
+}
+.menu__fm {
+  width: 353px;
+  background-image: url("../img/fm.jpg"), linear-gradient(black, black);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 33px left 2px, 100%;
+  height: 552px;
+}
+.menu__vm {
+  width: 304px;
+  background-image: url("../img/vm.jpg"), linear-gradient(black, black);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 7px right 0, 100%;
+  height: 552px;
+}
+.menu__dm {
+  width: 304px;
+  background-image: url("../img/dm.jpg"), linear-gradient(black, black);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top 2px right -3px, 100%;
+  height: 552px;
+}
+.menu__title {
+  position: relative;
+  top: 11px;
+  font-size: 30px;
+  font-weight: 700;
+  width: 200px;
+  letter-spacing: 0.8px;
+}
+.menu__title_bm {
+  left: 89px;
+}
+.menu__title_fm {
+  left: -22px;
+}
+.menu__title_vm {
+  left: -29px;
+}
+.menu__title_dm {
+  left: -25px;
+}
+.menu__img {
+  display: block;
+}
+.menu__img_fm {
+  width: 350px;
+  background-image: url("../img/fm.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top 8px right -2px;
+  height: 543px;
+}
+.menu__img_vm, .menu__img_dm {
+  width: 304px;
+}
+
+.gallery {
+  position: relative;
+  margin-top: -340px;
+  right: 50px;
+  z-index: 5;
+  padding: 108px 20px 500px 20px;
+  width: calc(100% + 100px);
+  transform: rotate(-5.58deg);
+  background-color: rgb(0, 0, 0);
+}
+.gallery__background {
+  transform: rotate(5.58deg);
+  position: relative;
+  background-image: url("../img/circle.svg"), linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  background-repeat: no-repeat;
+  background-position: top 242px left;
+  background-size: auto;
+}
+.gallery__container {
+  margin: 0 auto;
+  position: relative;
+}
+.gallery__video {
+  max-width: 1159px;
+}
+.gallery__photos {
+  margin-top: 103px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
+  gap: 54px;
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.list {
+  position: relative;
+  right: 116px;
+  margin: -377px auto 0;
+  z-index: 5;
+  background-color: rgb(108, 0, 192);
+  padding: 119px 0 520px 0;
+  transform: rotate(1.94deg);
+  width: 110%;
+}
+.list__container {
+  position: relative;
+  right: -98px;
+  transform: rotate(-1.94deg);
+  display: flex;
+  justify-content: space-between;
+  max-width: 1133px;
+}
+.list__icon {
+  color: rgb(255, 0, 138);
+  font-size: 24px;
+}
+.list__ul {
+  margin: 0 auto;
+}
+.list__li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 19px;
+}
+.list__text {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 52.5px;
+  letter-spacing: 0.8px;
+}
+
+.extra {
+  position: relative;
+  right: 50px;
+  transform: rotate(-5.58deg);
+  z-index: 6;
+  margin-top: -372px;
+  width: calc(100% + 100px);
+  padding: 139px 20px 20px 0;
+  background-color: rgb(1, 20, 88);
+}
+.extra__container {
+  position: relative;
+  transform: rotate(5.58deg);
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, 260px);
+  grid-template-rows: repeat(auto-fit, 392px);
+}
+.extra__text {
+  display: block;
+  width: 281px;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  bottom: 299px;
+  right: 15px;
+}
+.extra__img {
+  height: 260px;
+  width: 260px;
+}
+.extra__circle {
+  position: relative;
+  bottom: 309px;
+  right: 23px;
+  height: 330px;
+  width: 330px;
+}
+
+.contact {
+  position: relative;
+  z-index: 6;
+  margin: -181px 0 0 2px;
+  padding-bottom: 28px;
+  background-color: rgb(97, 0, 255);
+  width: 100%;
+}
+.contact__background {
+  background-image: url("../img/Ellipse-8.png"), url("../img/Ellipse-6.png"), linear-gradient(rgb(97, 0, 255), rgb(97, 0, 255));
+  background-repeat: no-repeat;
+  background-position: top 85px left -41%, top -152px right 8%;
+  background-size: 56%, auto;
+  padding-bottom: 138px;
+}
+.contact__title {
+  font-family: DelaGothicOne;
+  font-weight: 400;
+  font-size: 46px;
+  text-transform: uppercase;
+  width: 686px;
+  line-height: 127.3%;
+  margin: 66px 0 84px 0;
+}
+.contact__container {
+  margin-left: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__manager {
+  display: grid;
+  grid-template-rows: 300px;
+  grid-template-columns: 300px;
+}
+.card__manager :nth-child(2) {
+  position: relative;
+  left: 13px;
+  bottom: 26px;
+  z-index: 9;
+}
+.card__manager :nth-child(3) {
+  position: relative;
+  left: 47px;
+  bottom: 26px;
+  z-index: 9;
+}
+.card__manager :nth-child(4) {
+  position: relative;
+  left: 75px;
+  bottom: 26px;
+  z-index: 9;
+}
+.card__photo {
+  position: relative;
+  width: 168px;
+  z-index: 10;
+}
+.card__circle {
+  width: 214px;
+}
+.card__img {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.card__name {
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: 98px;
+  right: 2px;
+}
+.card__position {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.3px;
+  position: relative;
+  bottom: 79px;
+}
+.card__phone {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  bottom: 51px;
+}
+.card__tel, .card__email, .card__workTime {
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 0.1px;
+}
+.card__wa {
+  position: relative;
+  font-size: 26px;
+  top: 4px;
+  left: 27px;
+}
+.card__tg {
+  position: relative;
+  bottom: 9px;
+  left: 27px;
+}
+.card__workTime, .card__email {
+  position: relative;
+  bottom: 62px;
+}
+.card__workTime {
+  position: relative;
+  bottom: 52px;
+}
+
+.form {
+  position: relative;
+  top: 55px;
+  right: 13px;
+}
+.form__title {
+  font-family: DelaGothicOne;
+  width: 460px;
+  font-size: 30px;
+  line-height: 41px;
+  margin: 0 0 44px 5px;
+}
+.form__input {
+  border: 0.7px solid;
+  border-radius: 15px;
+  padding: 26px 0px 19px 46px;
+  margin-bottom: 22px;
+  width: 378px;
+}
+.form__input::placeholder {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+}
+.form__btn {
+  border-radius: 100px;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.6px;
+  user-select: none;
+  font-size: 21px;
+  background-color: rgb(255, 0, 138);
+  padding: 26px 111px 23px 106px;
+  position: relative;
+  margin-top: 6px;
+}
